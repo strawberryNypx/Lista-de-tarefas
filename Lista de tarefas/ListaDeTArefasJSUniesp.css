@@ -1,0 +1,86 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+
+body{
+  background-image: url("./chuva.jpg");
+}
+
+.Pai{
+  background-color: #aeaeaea2;
+  width: 1000px;
+  margin: 10px auto;
+}
+
+.Titulo{
+  margin-left: 350px;
+  color: #00240e;
+  margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+}
+
+.Janelinhas{
+  margin-left: 320px;
+}
+
+input{
+  border: none;
+  border-radius: 10px;
+  width: 400px;
+  height: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+textarea{
+  border: none;
+  border-radius: 10px;
+  width: 400px;
+  margin-bottom: 15px;
+}
+
+.BotaoCriarTabela{
+  border: none;
+  border-radius: 15px;
+  height: 35px;
+  width: 100px;
+  background-color: #00240e9d;
+  color: #ffff;
+  margin-left: 150px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.Tabela{
+  margin-left: 0px;
+}
+
+tr, th {
+    background-color: #00240e6a;
+    text-align: center;
+    padding-left: 10px;
+    width: 1000px;
+    height: 50px;
+    color: #ffff;
+}
+  
+.NovasCoisas{
+  background-color: #00240e6a;
+    text-align: center;
+    padding-left: 10px;
+    width: 1000px;
+    height: 50px;
+    color: #ffff;
+}
+
+button{
+  border: none;
+  border-radius: 15px;
+  margin-top: 5px;
+  height: 35px;
+  width: 100px;
+  background-color: #00240e9d;
+  color: #ffff;
+}

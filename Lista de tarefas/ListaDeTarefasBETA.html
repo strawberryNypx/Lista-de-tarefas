@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contLent="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="ListaDeTArefasJSUniesp.css">
+</head>
+
+<body>
+    <div class="Pai">
+        <h1 class="Titulo">Gerenciador de Tarefas</h1>
+        <div class="Janelinhas">
+            <input type="text" class="InputTarefa" placeholder="Digite sua tarefa:">
+            <p></p>
+            <textarea name="Descrição" class="TextDescricao" cols="30" rows="10" placeholder="Descrição:"></textarea>
+            <p></p>
+            <button class="BotaoCriarTabela">Adicionar</button>
+        </div>
+        <table id="Tabela">
+            <tr class="tr">
+                <th>Id</th>
+                <th>Tarefa</th>
+                <th>Ação</th>
+            </tr>
+        </table>
+    </div>
+<script src="LTbeta.js"></script>
+
+</body>
+
+</html>
